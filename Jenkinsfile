@@ -22,5 +22,10 @@ pipeline {
                 sh './jenkins/scripts/deliver.sh'
             }
         }
+        stage('Yolo') {
+            steps {
+                sh 'echo "SWAG"'
+            }
+        }
     }
 }
