@@ -24,7 +24,7 @@ pipeline {
         }
         stage('Yolo') {
             steps {
-                sh 'echo "YOLO"'
+                sh 'echo "SWAG"'
             }
         }
     }
